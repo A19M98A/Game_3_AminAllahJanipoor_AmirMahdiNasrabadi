@@ -25,13 +25,13 @@ public class Shooter : MonoBehaviour
         {
             Vector3 t = transform.position;
             Quaternion p = transform.rotation;
-            siny = Convert.ToSingle(Math.Sin(p.y));
-            cosy = Convert.ToSingle(Math.Cos(p.y));
-            y = p.y;
-            x = Convert.ToSingle(1f - p.y);
-            t.x += x;
-            z = Convert.ToSingle(p.y);
-            t.z += z;
+            //siny = Convert.ToSingle(Math.Sin(p.y));
+            //cosy = Convert.ToSingle(Math.Cos(p.y));
+            //y = p.y;
+            //x = Convert.ToSingle(1f - p.y);
+            //t.x += x;
+            //z = Convert.ToSingle(p.y);
+            //t.z += z;
 
             Rigidbody instance = Instantiate(ball, t, p) as Rigidbody;
             Vector3 fwd = transform.TransformVector(Vector3.forward);
