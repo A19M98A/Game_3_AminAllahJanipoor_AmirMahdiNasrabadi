@@ -24,9 +24,12 @@ public class W1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(X, Y, Z);
-        Z += N * sped;
-        if (Math.Abs(z0 - Z) > maxZ)
-            N = -N;
+        // transform.position = new Vector3(X, Y, Z);
+        // Z += N * sped;
+        // if (Math.Abs(z0 - Z) > maxZ)
+        //     N = -N;
+  
     }
+
+
 }
